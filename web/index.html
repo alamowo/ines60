@@ -1,0 +1,122 @@
+<!--
+  This example requires Tailwind CSS v2.0+ 
+  
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/forms'),
+    ],
+  }
+  ```
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Herzlichen Glückwunsch Ines!</title>
+  <link rel="stylesheet" href="/css/dist/app.css">
+</head>
+<body>
+  <div class="bg-white">
+    <main>
+      <!-- Hero section -->
+      <div class="relative md:py-24">
+        <div class="absolute inset-x-0 bottom-0 h-1/2 bg-white"></div>
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+          <div class="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
+            <div class="absolute inset-0">
+              <img class="h-full w-full object-cover" src="https://www.badewelt-sinsheim.de/bildergalerie/informationen/panoramadach.jpg" alt="People working on laptops">
+              <div class="absolute inset-0 bg-gradient-to-r from-amber-800 to-emerald-700 mix-blend-multiply"></div>
+            </div>
+            <div class="relative px-4 py-24 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
+              <h1 class="text-center text-4xl font-bold tracking-tight sm:text-5xl sm:tracking-tight lg:text-6xl lg:tracking-tight">
+                <span class="block text-white">Herzlichen Glückwunsch Ines</span>
+                <span class="block text-white">zu deinem 60. Geburtstag!</span>
+              </h1>
+              <p class="mt-6 max-w-lg mx-auto text-center text-xl text-emerald-200 sm:max-w-3xl">Verbringe einen wunderschönen Tag mit Deiner Tochter in der Badewelt Sinsheim. Und um den Tag voll auskosten zu können, gibt es noch eine Übernachtung im nahegelgenen Hotel Leo dazu! Genieße es!</p>
+              <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
+                <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
+                  <a href="https://www.badewelt-sinsheim.de/" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-emerald-700 bg-white hover:bg-emerald-50 sm:px-8"> Badewelt Sinsheim </a>
+                  <a href="https://hotelleo.eu/hotel/" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-emerald-700 bg-white hover:bg-emerald-50 sm:px-8"> Hotel Leo </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Alternating Feature Sections -->
+      <div class="relative pt-16 pb-32 overflow-hidden">
+        <div aria-hidden="true" class="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-blue-200"></div>
+        <div class="relative">
+          <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+            <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
+              <div>
+                <div class="mt-6">
+                  <h2 class="text-3xl font-bold tracking-tight text-gray-900">Ein traumhaftes Badeerlebnis</h2>
+                  <p class="mt-4 text-lg text-gray-500">Entdecke Deinen persönlichen Wohlfühlplatz. Entspanne Dich im Whirlpool oder in einem der wohltuenden Mineralbecken. Tauche ein und gönne Dir einen exotischen Cocktail an der Poolbar.</p>
+                </div>
+              </div>
+            </div>
+            <div class="mt-12 sm:mt-16 lg:mt-0">
+              <div class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+                <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="https://www.badewelt-sinsheim.de/bildergalerie/informationen/blaue-lagune.jpg" alt="Inbox user interface">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-24">
+          <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+            <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
+              <div>
+                <div class="mt-6">
+                  <h2 class="text-3xl font-bold tracking-tight text-gray-900">Entspannung pur</h2>
+                  <p class="mt-4 text-lg text-gray-500">Entspanne Dich hoch oben auf der Sky Lounge und genieße den Ausblick über das Palmenparadies. Oder relaxe am Rande der großen Lagune auf den Liegen oder in einer der Kuschelmuscheln, genieße von deiner Relaxliege einen traumhaften Sonnenuntergang über dem Natursee.</p>
+                </div>
+              </div>
+            </div>
+            <div class="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
+              <div class="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+                <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="https://www.badewelt-sinsheim.de/bildergalerie/informationen/sky-lounge-relax.jpg" alt="Customer profile user interface">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Stats section -->
+      <div class="relative bg-amber-200">
+        <div class="h-80 absolute inset-x-0 bottom-0 xl:top-0 xl:h-full">
+          <div class="h-full w-full">
+            <div class="h-full xl:relative">
+              <img class="h-full w-full object-cover opacity-25 xl:absolute xl:inset-0" src="https://www.badewelt-sinsheim.de/bildergalerie/informationen/liegeplaetze.jpg" alt="People working on laptops">
+              <div aria-hidden="true" class="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-amber-200 xl:inset-y-0 xl:left-0 xl:h-full xl:w-32 xl:bg-gradient-to-r"></div>
+            </div>
+          </div>
+        </div>
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
+            <div class="aspect-w-16 aspect-h-9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/Vg1WzAcfbUE?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  
+    <footer class="bg-white" aria-labelledby="footer-heading">
+      <div class="max-w-7xl mx-auto pt-16 pb-8 px-4 sm:px-6 lg:pt-24 lg:px-8">
+        <p class="mt-8 text-base text-center text-gray-400 md:mt-0 md:order-1">&copy; 2022 Happy Birtday Productions 🥳</p>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
